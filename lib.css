@@ -1,0 +1,410 @@
+/* reset */
+html, body {height:100%; margin:0px; padding:0px;}
+body {font-size:13px; font-family:Verdana, Tahoma, "Lucida Sans Unicode";color:#333;}
+a img {border:none;}
+form {padding:0px; margin:0px;}
+:focus { outline: none;}
+table td {vertical-align:top;}
+.clear{clear:both;}
+p {padding:2px 0; margin:0;}
+h1, h2, h3, h4, h5, h6 {margin:0;padding:0;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {text-decoration:none !important;}
+/* reset */
+
+
+
+
+/* HTML Tags */
+
+h1 {font-size:28px; color:#0E2486;}
+h2 {font-size:18px;}
+h3 {font-size:14px; color:#1681F9; font-size:14px; font-weight:bold;}
+a {text-decoration:none;}
+a:hover {text-decoration:none; color: #F00;}
+a:visited {color: #0E2486;}
+/* a:link {color: #1295D4;} */
+/* a {color: #1295D4;} */
+/* a:visited {color: #0E2486 } */
+/* HTML Tags */
+
+
+
+
+/* Classes */
+
+	.sub-info {display:block;padding-bottom:5px;}
+
+/* Default */
+body.Print { padding:10px; background:#ffffff;}
+
+.error {color:#FF0000;}
+
+.spTitle {font-weight:bold;font-size:14px; color:#1681F9;}
+
+.spTitle a {color:#FF0000;text-decoration:none;}
+.spSubTitle {color:#1681F9; font-size:13px; font-weight:bold;}
+p .spSubTitle {color:#1681F9;}
+.spSubTitle a {font-weight:bold;}
+
+.Title_28 {
+	height:40px;
+	 padding-bottom:7px;
+	margin-bottom:16px;
+	background: url(/i/nl_title_pad.png) repeat-x 0 0;
+	line-height:38px;
+	font-size:28px; 
+	font-family:'Trebuchet MS'; 
+	font-weight:bold;
+	color:#0467D5; text-align:center;
+	text-transform:uppercase;
+}
+.Title_28 a{
+	font-size:28px; 
+	font-family:'Trebuchet MS'; 
+	font-weight:bold;
+	color:#0467D5;
+	text-transform:uppercase;
+}
+.Title_16{
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family:'Trebuchet MS';
+	color: #346DC6;
+	text-align:left;
+}
+.Title_16 a{
+	font-size: 16px;
+	font-weight: bold;
+	font-family:'Trebuchet MS';
+	color: #346DC6;
+	text-align:left;
+}
+.Title_15{
+	padding-bottom: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Trebuchet MS';
+	color: #FF6600;
+	text-align:left;
+}
+.Title_15 a{
+	font-size: 15px;
+	font-weight: bold;
+	font-family:'Trebuchet MS';
+	color: #FF6600;
+	text-align:left;
+}
+.Title_13{
+	padding-bottom: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family:'Trebuchet MS';
+	color: #356EC7;
+	text-align:left;
+}
+.Title_13 a{
+	font-size: 13px;
+	font-weight: bold;
+	font-family:'Trebuchet MS';
+	color: #356EC7;
+	text-align:left;
+}
+
+.newsDateBox16{
+	color:#FF6600;
+	font-size:16px;
+	font-family: 'Trebuchet MS';
+	padding-bottom:8px;
+}
+
+.newsDateBox13{
+	color:#FF6600;
+	font-size:13px;
+	font-family: 'Trebuchet MS';
+	padding-bottom:5px;
+}
+
+.ImgLeft {float:left; margin:5px 10px 10px 0; border: 1px solid #999;padding:3px;}
+.ImgRight {float:right; margin:5px 0 10px 10px; border: 1px solid #999;padding:3px;}
+
+.DownloadLink{ background: url(/i/download_ico.gif) no-repeat 0 50%; padding-left:20px; line-height:18px;  }
+
+#facebookComment {
+	height: 120px;
+}
+
+#facebookLikeShare{
+	margin-bottom: 10px;
+}
+
+.BackPrintTop {background: url('/i/backPrintTop.png') repeat-x 50% 50%; text-align:center; width:200px; height:30px; padding-top:5px; border-left:1px solid #BFC4D7; border-right:1px solid #BFC4D7; border-top-left-radius:7px; border-top-right-radius:7px; position:absolute;bottom:0; left:500px;}
+.BackPrintTop a {text-decoration:none; font-family:'Trebuchet MS'; color:#0D9BD6; font-size:16px; padding:0 3px;}
+.BackPrintTop a:hover {text-decoration:underline;}
+.BackPrintTop .Back { }
+.BackPrintTop .Print { }
+.BackPrintTop .Top { padding: 0 2px;}
+
+.PageBar {padding:10px;}
+	.PageBar b {border:1px solid #f93;padding:2px 5px;color:#f93;text-decoration:none;font-family:Tahoma;}
+	.PageBar a {border:1px solid #f93;padding:2px 5px;background-color:#f93;text-decoration:none;font-family:Tahoma;color:#fff !important;font-weight:bold;}
+#FooterCont { }
+
+#ITTILogo { }
+
+
+.tableStyle1 {border:none; border-collapse:collapse; margin:10px 0;}
+.tableStyle1 td {background:white; border:1px solid #ccc; text-align:center;}
+.tableStyle1 td p {font-family:'Trebuchet MS'; font-size:12px; color:#000469; font-weight:normal;}
+.tableStyle1 td strong {font-family:'Trebuchet MS'; font-size:12px; color:#000469; font-weight:normal;}
+.tableStyle1 .tableHeader td {background: #E4F5FD;}
+.tableStyle1 .tableHeader td p {font-family:'Trebuchet MS'; color:#000469; font-size:14px; font-weiggt:bold;}
+.tableStyle1 .tableHeader td strong {font-family:'Trebuchet MS'; color:#000469; font-size:14px; font-weight:bold;}
+
+
+/*LAYOUT*/
+body {background:#1681F9 url('/i/wrap_bgr.png') no-repeat 50% 90px;}
+#wrap {background: url('/i/header_repeat.png') repeat-x 0 0; width:100%;}
+
+/*HEADER*/
+#header .topNav {position: absolute; top: 55px; right: 0px;}
+#header .topNav div {display: inline-block; margin-left: 20px;}
+#header .topNav .hoverImage {display: none;}
+#header .topNav div:hover .hoverImage {display:inline;}
+#header .topNav div:hover .currentImage {display:none;}
+#header .topNav div.selected .hoverImage {display:inline;}
+#header .topNav div.selected .currentImage {display:none;}
+#header {width:1200px; margin:0 auto; height:140px; padding-top:2px; position:relative;}
+#header .user {position:absolute; top:0; right:12px; padding:5px 15px; background:#DFE2EA; border-bottom-left-radius:5px;border-bottom-right-radius:5px; }
+#header .user td {padding:5px 0; color:#666666; font-family:tahoma; font-size:13px;}
+#header .user td a {font-family:Tahoma; color:#1294D3; font-size:13px;}
+#header .homeNav {position:absolute; top:5px; right:0px;}
+#header .homeNav td:FIRST-CHILD {padding:0 9px 0 9px; vertical-align:middle;}
+#header .homeNav td {padding:0 0 0 9px; vertical-align:middle;}
+#header .homeNav a {font-family:Tahoma; font-size:14px; color:#0D9BD6;}
+#header .menu {padding:17px 0 0 10px;}
+#header .menu td {border-right:1px dotted gray; padding:2px 11px;}
+#header .menu.bkg td {border-right:1px dotted #C1E79B;}
+#header .menu.bss td {border-right:1px dotted #FFDD9F;}
+#header .menu.bcs td {border-right:1px dotted #EFA9A9;}
+
+#header .menu a {font-family:Tahoma; font-size:15px; color:white; padding:10px 10px;}
+#header .menu a:hover {background: url('/i/nav_hover_repeat.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+#header .menu a.selected {background: url('/i/nav_hover_repeat.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+
+#header .menu.bkg a:hover {background: url('/i/bkg/nav_hover_repeat_bkg.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+#header .menu.bkg a.selected {background: url('/i/bkg/nav_hover_repeat_bkg.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+
+#header .menu.bss a:hover {background: url('/i/bss/nav_hover_repeat_bss.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+#header .menu.bss a.selected {background: url('/i/bss/nav_hover_repeat_bss.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+
+#header .menu.bcs a:hover {background: url('/i/bcs/nav_hover_repeat_bcs.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+#header .menu.bcs a.selected {background: url('/i/bcs/nav_hover_repeat_bcs.png') repeat-x 0 50%;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+/*CONTENT*/
+#wrapTable {width:1200px; margin:0 auto;}
+#content {background:white;}
+#content h1 {font-family:'Trebuchet MS'; font-size:28px;}
+#content p {font-family:Tahoma,Verdana; font-size:14px; color:#656565; line-height:21px;}
+#content div.parentText {margin-bottom:20px;}
+#content div.parentText p {font-family:Verdana; font-size:14px; color:#1681F9;}
+
+#content li {font-family:Tahoma,Verdana; font-size:14px; color:#656565; line-height:21px;}
+#content .spTitle {color:#1681F9; font-size:15px; font-weight:bold;}
+#content .spSubTitle {color:#1681F9; font-size:14px; font-weight:bold;}
+#content strong {}
+#content .static {padding-bottom:15px;}
+#content .static h1 {padding-bottom:10px;}
+#content .static a {color:#FF6633;}
+#content .tableStyle1 {border:none; border-collapse:collapse; margin:10px 0;}
+#content .tableStyle1 td {background:white; border:1px solid #ccc; text-align:center;}
+#content .tableStyle1 td p {font-family:'Trebuchet MS'; font-size:12px; color:#000469; font-weight:normal;}
+#content .tableStyle1 td strong {font-family:'Trebuchet MS'; font-size:12px; color:#000469; font-weight:normal;}
+#content .tableStyle1 .tableHeader td {background: #E4F5FD;}
+#content .tableStyle1 .tableHeader td p {font-family:'Trebuchet MS'; color:#000469; font-size:14px; font-weight:bold;}
+#content .tableStyle1 .tableHeader td strong {font-family:'Trebuchet MS'; color:#000469; font-size:14px; font-weight:bold;}
+#content .newsTable {margin-bottom:20px;}
+#content .newsTable h2 {font-family:Tahoma,verdana; font-size:14px; color:#1295D4; font-weight:normal; padding-bottom:5px;}
+#content .newsTable p {font-family:tahoma,verdana; font-size:14px; color:#656565; line-height:22px;}
+#content .newsTable .more-read_bg {background: url('/i/event_read_more_bg.png') no-repeat 0 0; padding:11px 0 0 9px; display:block; width:155px; height:45px; font-size:15px; color:white; font-family:Calibri; font-weight:bold;  margin-top:15px;}
+#content .newsTable .more-read_en {background: url('/i/event_read_more_en.png') no-repeat 0 0; padding:11px 0 0 9px; display:block; width:155px; height:45px; font-size:15px; color:white; font-family:Calibri; font-weight:bold;  margin-top:15px;}
+#content .welcomeText {padding-bottom:15px;}
+#content .welcomeText h1 {font-family:'Trebuchet MS'; font-size:28px;}
+#content .welcomeText p {font-family:tahoma,Verdana; font-size:14px; color:#656565; line-height:20px;}
+#content .welcomeText .spSubTitle {color:#1681F9;}
+#content .events {width:100%; margin-bottom:15px;}
+#events_link:hover{text-decoration: underline; color: #1681F9;}
+#events_link:link, #events_link:visited {color: #1681F9;}
+#content .events .event_tab {font-family:'Trebuchet MS'; width:44%; font-size:15px; padding:4px 11px; font-weight:bold; border-bottom:2px solid #1681F9; display:inline-block; text-align:center;}
+#content .events .event_tab.active {background:#1681F9; color:white; }
+#content .events .event_tab.inactive {background:#CAEBFB; color:#1681F9; cursor:pointer;}
+#content .events .event {padding-top:25px;}
+#content .events .event.isVis {display:block;}
+
+#content .events .event.notVis {display:none;}
+#content .events .event .eventText {font-family:tahoma,Verdana; font-size:13px; color:#1681F9;}
+#content .events .event .eventDate {background: url('/i/eventCalendar.png') no-repeat 0 50%; padding-left:28px; font-family:tahoma,Verdana; font-size:11px; color:#7B868F; line-height:25px;}
+#content .events .event .seeAllEvents {background: url('/i/event_read_all.png') no-repeat 0 50% ; display:inline-block; width:155px; height:45px;}
+
+#content .teachers {padding:10px 5px 10px 20px; width:100%;}
+#content .teachers p {font-family:Verdana; font-size:14px; color: #1681F9;}
+#content .teachers p a {font-family:Verdana; font-size:14px; color: #1681F9;}
+#content .teachers p a:hover {text-decoration: underline;}
+#content .teachers span {color:#656565;font-size: 14px;}
+#content .teachers .td_0 {}
+
+#content .teacherDesc {width:100%; clear:both;  margin-bottom:20px; border-bottom:1px solid #ccc; padding-bottom:15px;}
+#content .teacherDesc.withHeight {min-height:180px;}
+#content .teacherDesc.withHeight p {margin-left:153px;}
+#content .teacherDesc img {width:135px; float:left; margin:0 10px 10px 0; padding:3px; border:1px solid #999;}
+#content .teacherDesc h2 {color:#1681F9; font-family:'Trebuchet MS'; font-size:17px;}
+#content .teacherDesc a {display:block;}
+#content .teacherDesc .teacher_link {color:#1681F9; padding-top:15px;}
+#content .teacherDesc .subjDesc {display:none;}
+#content .teacherDesc .subjDesc .subjectsDescription {padding-top: 20px;}
+#content .teacherDesc .subjDesc .subjectsDescription img {width: auto;}
+
+#content .scheduleTable {border-collapse:collapse; border-right:1px solid #ccc;}
+#content .scheduleTable td,th {border:1px solid #ccc;}
+#content .scheduleTable th {background:#E4F5FD; font-family:'Trebuchet MS'; font-size:14px; color:#000469;}
+#content .scheduleTable td {font-family:'Trebuchet MS'; font-size:12px; color:#000469; text-align:center; vertical-align:middle;}
+#content .scheduleTable td a {text-decoration:none; color:#000469; font-size:13px;}
+#content .scheduleTable .break {background:#E4F5FD;}
+
+
+#content .applyForm.newStudent, #content .applyForm.oldStudent {display:inline-block; background-color: #E4F5FD;}
+#content .applyForm.newStudent, #content .applyForm.oldStudent a{color: #000465; font-size: 14px; font-weight: bold;}
+#content .applyForm.newStudent {display: inline-block; width: 200px; padding:10px 25px; text-align: center;}
+#content .applyForm.oldStudent {display: inline-block; width: 250px; padding-top:10px; padding-bottom:10px; text-align: center;}
+
+#content .applyFormTbl {}
+#content .applyFormTbl textarea {border: 1px solid #999;}
+#content .applyFormTbl .thSpan {font-family:'Trebuchet MS'; font-size:16px; color:white; background: #1681F9; padding:7px 0;}
+#content .applyFormTbl label {font-family:tahoma,Verdana; font-size:13px; color:#000465;}
+#content .applyFormTbl td input[type="text"] {width:79%;}
+#content .applyFormTbl td {padding-bottom:8px; background:#E4F5FD;}
+#content .applyFormTbl .td1 {padding:4px 10px 8px 33px;}
+#content .applyFormTbl .td2 {padding:4px 10px 8px 0;}
+#content .applyFormTbl td textarea {width:80%;}
+#content .applyFormTbl .fatherToggle {display:none;}
+#content .applyFormTbl .motherToggle {display:none;}
+#content .applyFormTbl .guardianToggle {display:none;}
+#content .applyFormTbl.contact b {color:red; font-size:11px;}
+#content .applyFormTbl.contact .errors {color:red; font-size:12px; padding:7px 0;}
+#content .event img {padding:3px; border:1px solid #999;}
+
+#content .upcoming {padding:20px 0; display:block; border-bottom:1px solid #C7C7C7;}
+#content .upcoming .event_pic {background: url('/i/event_shadow.png') no-repeat 50% 100%; padding-bottom:10px;}
+#content .upcoming .event_pic img { width:200px; margin-right:10px; padding:3px; border:1px solid #999;}
+#content .upcoming h3 {font-family:verdana; font-size:14px; font-weight:normal;}
+#content .upcoming .date {background: url('/i/calendar/calendar_bgr.png') no-repeat 0 50%; padding: 0 20px 0 28px; font-size:11px; color:#586269; font-family:verdana; display:inline-block;line-height:22px;}
+#gall_link {background: url('/i/gallery_bgr.png') no-repeat 0 50%; padding-left:30px; font-size:11px; color:#586269; font-family:verdana; display:inline-block; line-height:19px;}
+#content .upcoming #gall_link:hover {text-decoration:underline; color:#1681F9;}
+
+#content .fullPast {padding-top:20px;}
+#content .fullPast .date {background: url('/i/calendar/calendar_bgr.png') no-repeat 0 50%; padding: 0 20px 0 28px; font-size:11px; color:#586269; font-family:verdana; display:inline-block;line-height:22px;}
+#content .fullPast #gall_link {background: url('/i/gallery_bgr.png') no-repeat 0 50%; padding-left:30px; font-size:11px; color:#586269; font-family:verdana; display:inline-block; line-height:19px;}
+#content .fullPast #gall_link:hover {text-decoration:underline; color:#1681F9;}
+
+#content .caption {width:100%; padding:10px; background: #00036B;}
+#content .caption .prevLink {color:#7DBAF9;}
+#content .caption .nextLink {color:#7DBAF9;}
+#content .calendarEventsTbl {border-collapse:collapse; border:1px solid #666; width:100%;}
+#content .calendarEventsTbl td,th {border:1px solid #666;}
+#content .calendarEventsTbl th {background:#FEEDCD; font-family:'Trebuchet MS'; font-size:14px; color:#000469; padding:5px 0;}
+#content .calendarEventsTbl td {font-family:'Verdana'; font-size:13px; font-weight:bold; color:#1681F9; text-align:left; padding:5px; vertical-align:middle;}
+#content .calendarEventsTbl .dayEvent:hover {background:#FFF7E6;}
+#content .calendarEventsTbl .currentDay {background:#FFF7E6;}
+#content .calendarEventsTbl .th7,#content .calendarEventsTbl .th8,#content .calendarEventsTbl .td7,#content .calendarEventsTbl .td8 {background: #E6F2FF;}
+#content .calendarEventsTbl .td1 {background:#FFDB96; text-align:center; padding:0; color:#858585;}
+#content .calendarEventsTbl .dayEvent {font-weight:normal; min-height:50px;}
+#content .calendarEventsTbl .inactiveDay {color:#C1CFF4; font-weight:bold;}
+#content .calendarEventsTbl .activeDay {font-weight:bold;}
+#content .calendarEventsTbl .eventType1, #content .calendarLegend .eventType1 {color: #E75F19;}
+#content .calendarEventsTbl .eventType2, #content .calendarLegend .eventType2 {color: #0004A7;}
+#content .calendarEventsTbl .eventType3, #content .calendarLegend .eventType3 {color: #666;}
+#content .calendarEventsTbl .eventType4, #content .calendarLegend .eventType4 {color: #1681F9;}
+
+#content .calendarLegend {margin-top: 20px;}
+#content .calendarLegend .cLegendItem {display: inline-block; font-weight: bold; margin-right: 40px;}
+#content .calendarLegend .cLegendItem .eventBgr1 {background: url(i/calendar/event_type_1_bgr.png) no-repeat; display: inline-block; width: 16px; height: 16p;}
+#content .calendarLegend .cLegendItem .eventBgr2 {background: url(i/calendar/event_type_2_bgr.png) no-repeat; display: inline-block; width: 16px; height: 16p;}
+#content .calendarLegend .cLegendItem .eventBgr3 {background: url(i/calendar/event_type_3_bgr.png) no-repeat; display: inline-block; width: 16px; height: 16p;}
+#content .calendarLegend .cLegendItem .eventBgr4 {background: url(i/calendar/event_type_4_bgr.png) no-repeat; display: inline-block; width: 16px; height: 16p;}
+
+#left-nav {background:white; padding:0 6px 0 29px;}
+#left-nav .menu {background: #E4F5FD; padding:0 10px 10px 10px; margin-bottom:20px; border-left:1px solid #C7C7C7; border-right:1px solid #C7C7C7; border-bottom:1px solid #C7C7C7; border-bottom-left-radius:7px; border-bottom-right-radius:7px;}
+#left-nav .menu a {display:block;font-family:tahoma,Verdana; font-size:14px; color:#1681F9;}
+#left-nav .menu a.level3 {background: url('/i/footerArrow.png') no-repeat 0 45%; padding: 9px 0 9px 30px; }
+#left-nav .menu a.level3:hover {background: url('/i/left_nav_arrow_down.png') no-repeat 0 45%; color:#000477;font-weight:normal; text-decoration:underline;}
+#left-nav .menu a.level3.selected {background: url('/i/left_nav_arrow_down.png') no-repeat 0 45%; color:#000477;font-weight:normal; text-decoration:underline;}
+#left-nav .menu a.level4 {background: url('/i/level4_dott.png') no-repeat 0 50%; padding:2px 0 2px 15px;margin-left:28px; text-decoration:underline; color:#68ADF9;}
+#left-nav .menu a.level4:hover {background: url('/i/level4_dott_hover.png') no-repeat 0 50%;color:#000477; text-decoration:underline; color:#1681F9;}
+#left-nav .menu a.level4.selected {background: url('/i/level4_dott_hover.png') no-repeat 0 50%;color:#000477; text-decoration:underline; color:#1681F9;}
+#left-nav .menu .parent {font-family:'Trebuchet MS'; font-size:19px; color:#0E2486; font-weight:bold; padding-bottom:10px;}
+#left-nav .menu a.logout {color: #0E2486; font-weight: bold; padding-left: 150px;}
+#left-nav .menu a.logout:hover {text-decoration: underline;}
+
+.schoolImage .hoverImage {display: none;}
+.schoolImage:hover .hoverImage {display:inline;}
+.schoolImage:hover .currentImage {display:none;}
+
+#contentHome .homePage {background: #E8EAF0 url('/i/homePageBgrReplace.png') no-repeat 50% 0px; border-bottom:1px solid #C0C7D1; width:1200px; height:100%; padding:0 30px 30px 30px; margin-top:25px;}
+#contentHome .homePage .textBox {padding: 10px 20px; background: white; overflow:hidden; border:1px solid #D6D9DF; border-top:none; border-bottom-left-radius:7px; border-bottom-right-radius:7px;}
+#contentHome .homePage .textBox h1 {font-family:tahoma,Verdana; font-size:18px;}
+#contentHome .homePage .textBox p {font-family:tahoma,Verdana; font-size:14px; color:#656565;}
+#contentHome .homePage .textBox .readMore {background: url('/i/read_more.png') no-repeat 100% 50%; padding-right:22px; font-family:Tahoma; font-size:13px; color:#1295D4; float:right;}
+#contentHome .contentTable {background: white; padding:30px; width:1200px;}
+#contentHome .contentTable .contentTableEvents{width: 810px;}
+#contentHome .contentTable .contentTableEvents .events{width: 245px; padding-right: 20px;}
+#contentHome .contentTable .contentTableEvents img{width: 20px;}
+#contentHome .contentTable .desc {padding-right:15px;}
+#contentHome .contentTable .desc h1 {font-family:'Trebuchet MS'; font-size:28px;}
+#contentHome .contentTable .desc p {font-family:tahoma,Verdana; font-size:14px; color:#656565; line-height:20px;}
+#contentHome .contentTable .event_tab {font-family:'Trebuchet MS'; font-size:15px; padding:4px 11px; font-weight:bold; border-bottom:2px solid #1681F9;}
+#contentHome .contentTable .event_tab.inactive, #contentHome .contentTable .event_tab.active  {background:#CAEBFB; color:#1681F9; cursor:pointer; border-top-left-radius: 5px; border-top-right-radius: 5px; display: block; width: 210px;}
+#contentHome .contentTable .event {padding-top:25px;}
+#contentHome .contentTable .event img {padding:3px; border:1px solid #999;}
+#contentHome .contentTable .event .readMoreImg {border: none;}
+#contentHome .contentTable .event.isVis {display:block;}
+#contentHome .contentTable .event.notVis {display:none;}
+#contentHome .contentTable .event .eventText {font-family:tahoma,Verdana; font-size:13px; color:#1681F9;}
+#contentHome .contentTable .event .eventDate {background: url('/i/eventCalendar.png') no-repeat 0 50%; padding-left:28px; margin-bottom:10px; font-family:tahoma,Verdana; font-size:11px; color:#7B868F; line-height:25px;}
+#contentHome .contentTable .event .seeAllEvents {background: url('/i/event_read_all.png') no-repeat 0 50% ; display:inline-block; width:155px; height:45px;}
+
+#ctx {padding:0 0 10px 30px; background:white;}
+#ctx .ctxMenu {width:300px;}
+#ctx .ctxMenu a {display:block; width:300px; height:60px; padding: 5px 0px;}
+#ctx .ctxMenu .parentEvents{background: url("i/banners/parrent_events.png") no-repeat}
+#ctx .ctxMenu .parentEvents:hover{background: url("i/banners/parrent_events_o.png") no-repeat}
+#ctx .ctxMenu .gradebookNone{display: none;}
+#ctx .ctxMenu .gradebook{background: url("i/banners/gradebook.png") no-repeat}
+#ctx .ctxMenu .gradebook:hover{background: url('i/banners/gradebook_o.png') no-repeat}
+#ctx .ctxMenu .calendar{background: url("i/banners/calendar.png") no-repeat}
+#ctx .ctxMenu .calendar:hover{background: url('i/banners/calendar_o.png') no-repeat}
+#ctx .ctxMenu .newsletter {background: url('/i/news_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .newsletter:hover {background: url('/i/news_d.png') no-repeat 0 0;}
+#ctx .ctxMenu .apply_online {background: url('/i/online_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .apply_online:hover {background: url('/i/online_d.png') no-repeat 0 0;}
+#ctx .ctxMenu .useful {background: url('/i/useful_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .useful:hover {background: url('/i/useful_d.png') no-repeat 0 0;}
+#ctx .ctxMenu .parents {background: url('/i/parents_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .parents:hover {background: url('/i/parents_d.png') no-repeat 0 0;}
+#ctx .ctxMenu .teachers {background: url('/i/teachers_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .teachers:hover {background: url('/i/teachers_d.png') no-repeat 0 0;}
+/* #ctx .ctxMenu .gradebook {background: url('/i/gradebook_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .gradebook:hover {background: url('/i/gradebook_d.png') no-repeat 0 0;}
+#ctx .ctxMenu .adult_education {background: url('/i/adulteducation_o.png') no-repeat 0 0;}
+#ctx .ctxMenu .adult_education:hover {background: url('/i/adulteducation_d.png') no-repeat 0 0;} */
+/*FOOTER*/
+#footer {width:1200px; margin:0 auto;}
+#footer .bpt {background: url('/i/footerRepeat.png') repeat-x 0 0; width:1200px; height:61px; position:relative; color:#0D9BD6;}
+#footer .relations {background: white; padding:13px 30px;}
+#footer .relations h2 {font-family:'Trebuchet MS'; font-size:28px; color:#075192; padding-bottom:10px;}
+#footer .footerNav {background: url('/i/footerBgr.png') no-repeat 50% 50%; width:1200px; height:261px; padding:18px 30px 19px 30px;}
+#footer .footerNav td {vertical-align:middle;}
+#footer .footerNav .menus a {background: url('/i/footerArrow.png') no-repeat 0 50%; padding:9px 0 9px 27px; display:block; font-family:tahoma,Verdana; font-size:14px; color:#1681F9; text-decoration:none;}
+#footer .footerNav .menus a:hover {background: url('/i/footerArrow_down.png') no-repeat 0 50%; color:white;}
+#footer .footerNav td .footerContacts {font-family:tahoma,Verdana; fon-size:12px; color:#1580F8;}
+#footer .footerBottom {background: url('/i/footerBottom.png') no-repeat 50% 0; width:1200px; text-align:center; padding-bottom:30px;}
+#footer .footerBottom p {font-family:tahoma,verdana; font-size:13px; color:white; padding:15px 0 25px 0;}
+#footer .footerContacts a {color:white;}
